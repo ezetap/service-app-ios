@@ -16,19 +16,12 @@ let package = Package(
         // .package(url: /* package url */, from: "1.0.0"),
     ],
     targets: [
-        // Targets are the basic building blocks of a package. A target can define a module or a test suite.
-        // Targets can depend on other targets in this package, and on products in packages this package depends on.
-//        .target(
-//            name: "EzeApi",
-//            dependencies: []),
+        
         
             .binaryTarget(
                    name: "EzeApi",
                    url: "https://demo.ezetap.com/EzeApi.xcframework.zip",
                    checksum: "357782bf4b5950810107e058add791569e2de492f7c7afe9575831553444dfd5"),
-                  //        .testTarget(
-//            name: "EzeApiTests",
-//            dependencies: ["EzeApi"]),
         
         
     ]
