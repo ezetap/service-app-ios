@@ -25,8 +25,8 @@ let package = Package(
             .binaryTarget(
                    name: "EzeApi",
                    url: "https://demo.ezetap.com/EzeApi.xcframework.zip",
-                   checksum: "01fe9e0a8c4868fa0fc5aaf4b2251143773b4dfb42aa44e1d0ffd2ce2b90e9fa"),
-//        .testTarget(
+                   checksum: "357782bf4b5950810107e058add791569e2de492f7c7afe9575831553444dfd5"),
+                  //        .testTarget(
 //            name: "EzeApiTests",
 //            dependencies: ["EzeApi"]),
         
