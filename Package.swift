@@ -17,7 +17,7 @@ let package = Package(
     ],
     targets: [
         
-            //update change 
+            //update new link
             .binaryTarget(
                    name: "EzeApi",
                    url: "https://demo.ezetap.com/EzeApi.xcframework.zip",
