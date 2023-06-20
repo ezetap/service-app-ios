@@ -1,4 +1,4 @@
-// swift-tools-version: 5.8
+// swift-tools-version:5.5
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -21,7 +21,7 @@ let package = Package(
             .binaryTarget(
                    name: "EzeApi",
                    url: "https://demo.ezetap.com/EzeApi.xcframework.zip",
-                   checksum: "bc17bd5298f9729eb6200609630bd28d183f4b54d5e5aa5d3c527b1c8091811e"),
+                   checksum: "c7e468a8c3693a01875b43ea26c25817fd7aba41e2191c9c62240549d4cc5140"),
         
         
     ]
