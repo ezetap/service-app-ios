@@ -20,6 +20,6 @@ let package = Package(
             .binaryTarget(
                    name: "EzeApi",
                    url: "https://demo.ezetap.com/EzeApi.xcframework.zip",
-                   checksum: "d728a399a99e1189b6445a58b9bc83077e382534e93f960aa69a60277011d3f6"),
+                   checksum: "49757b7bbdb6dec7e26c75209d6f85dead2e1294d81e740faa0fd2cfa51bbdb8"),
     ]
 )
