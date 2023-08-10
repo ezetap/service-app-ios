@@ -19,7 +19,7 @@ let package = Package(
         
             .binaryTarget(
                    name: "EzeApi",
-                   url: "https://demo.ezetap.com/EzeApi.xcframework.zip",
-                   checksum: "49757b7bbdb6dec7e26c75209d6f85dead2e1294d81e740faa0fd2cfa51bbdb8"),
+                   url:"https://demo.ezetap.com/ios_sdk/2.4/EzeApi.xcframework.zip",
+                   checksum: "5a47845c2b0fa2dc412cd942c5afe600dbad68842edf7337749c050b81cd9580"),
     ]
 )
