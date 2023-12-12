@@ -2,6 +2,7 @@ public struct EzeApi {
     public private(set) var text = "Hello, World!"
 
     public init() {
-        //2.7 amex card release
+        //2.7
+        //amex card release
     }
 }
