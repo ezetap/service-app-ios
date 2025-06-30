@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "PostHog",
+        "repositoryURL": "https://github.com/PostHog/posthog-ios.git",
+        "state": {
+          "branch": null,
+          "revision": "e35ec56b8e25d759e285d9a7d831eed070bf3cd3",
+          "version": "3.7.2"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
