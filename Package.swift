@@ -5,6 +5,12 @@ import PackageDescription
 
 let package = Package(
     name: "EzeApi",
+    platforms: [
+        .iOS(.v13),
+        .macOS(.v10_15),
+        .tvOS(.v13),
+        .watchOS(.v6)
+    ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
@@ -24,7 +30,7 @@ let package = Package(
         ),
         .binaryTarget(
                name: "EzeApi",
-               url:"https://demo.ezetap.com/ios_sdk/2.9/EzeApi.xcframework.zip",
+               url:"https://demo.ezetap.com/ios_sdk/3.0.1/EzeApi.xcframework.zip",
                checksum: "67949a1289aec316e7e22ab90b34f0023561932eda9c678b524fe57a63933c48"),
     ]
 )
